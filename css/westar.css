@@ -1,0 +1,59 @@
+/* General */
+.westarPadPage {padding: 0 10%;}
+section {margin: 5% 0; padding: 2% 0;}
+
+/* Navigation */
+.westarLogo {
+    width: 80px;
+    height: auto;
+}
+
+.linkswapper li {margin: 0 1.2%;}
+
+.linkswapper a {
+    border-bottom: 2px solid transparent;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+}
+
+.linkswapper a:hover {
+    border-bottom: 2px solid #fff;
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}
+.linkswapper a.active {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+/* .navgate {background-color: transparent;}
+.navgate:hover {background-color: gold;} */
+
+/* ================================
+===  ABOUT PAGE  ==  ABOUT PAGE ===
+================================== */
+
+#aboutPageBanner {
+    background: linear-gradient(rgba(148, 146, 146, 0.432), rgba(20, 20, 20, 0.849)), url(/img/ladyonmansion2.png)   no-repeat fixed;
+    background-size: 100% 100%;
+    /* max-height: 100vh; */
+}
+
+ #westarAboutBanner {
+    color: #000;
+    padding-bottom: 5%;
+    /* text-align: center; */
+}
