@@ -13,11 +13,15 @@ h1 {font-size: 300%;}
 h2{font-size: 250%;}
 .westarPadPage {padding: 0 10%;}
 section {margin: 5% 0; padding: 2% 0;}
-/* .col-*{
-    margin: 2% 0;
-} */
+.grid-gap{
+    margin: 6% auto;
+}
 
 /* Navigation */
+
+/* .navbar-toggler-icon{
+    color: #000;
+} */
 .westarLogo {
     width: 80px;
     height: auto;
@@ -98,7 +102,10 @@ section {margin: 5% 0; padding: 2% 0;}
 }
 #homebanner{
     margin-top: 0;
-    background: linear-gradient(rgba(148, 146, 146, 0.432), rgba(20, 20, 20, 0.849)), url(/img/ladyonmansion2.png)   no-repeat fixed;
+    background: -webkit-linear-gradient(rgba(37, 50, 223, 0.43), rgba(230, 13, 13, 0.85)), url(../img/home.jpg)  no-repeat fixed;
+    background: -moz-linear-gradient(rgba(37, 50, 223, 0.43), rgba(230, 13, 13, 0.85)), url(../img/home.jpg)  no-repeat fixed;
+    background: -o-linear-gradient(rgba(37, 50, 223, 0.43), rgba(230, 13, 13, 0.85)), url(../img/home.jpg)  no-repeat fixed;
+    background: linear-gradient(rgba(37, 50, 223, 0.43), rgba(230, 13, 13, 0.85)), url(../img/home.jpg)  no-repeat fixed;
     background-size: 100% 100%;
     min-height: 100vh;
 }
@@ -109,7 +116,7 @@ section {margin: 5% 0; padding: 2% 0;}
 ================================== */
 
 #aboutPageBanner {
-    background: linear-gradient(rgba(148, 146, 146, 0.432), rgba(20, 20, 20, 0.849)), url(/img/ladyonmansion2.png)   no-repeat fixed;
+    background: linear-gradient(rgba(37, 50, 223, 0.43), rgba(230, 13, 13, 0.85)), url(../img/contact.jpeg)   no-repeat fixed;
     background-size: 100% 100%;
 }
 
@@ -117,6 +124,11 @@ section {margin: 5% 0; padding: 2% 0;}
     color: #fff;
     padding-bottom: 5%;
     /* text-align: center; */
+}
+
+.westarAboutDetails {
+    height: 150px;
+    overflow: scroll;
 }
 
 .profilePicture {
@@ -295,17 +307,27 @@ footer {
 
 @keyframes roll {
   0% {
-            -webkit-transform: rotate(0);
-            transform: rotate(0);
-            -moz-transform: rotate(0);
-            -ms-transform: rotate(0);
-            -o-transform: rotate(0);
-}
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+    }
   100% {
             -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
             -moz-transform: rotate(360deg);
             -ms-transform: rotate(360deg);
             -o-transform: rotate(360deg);
+        }
 }
+
+.home-address{
+    /* border-top: #fff solid 1px; */
+    border-bottom: #fff solid 1px;
+    padding: 4% 0;
+}
+
+.footnote{
+    margin-top: 10%;
 }
